@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/undraw_website_78wh.svg" alt="Form Image">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="organization">Organização/Empresa</label>
+                        <input id="organization" type="text" name="organization" placeholder="Campo de Texto" required>
+                    </div>
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Tipo de Organização</h6>
+                    </div>
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="empresa" type="radio" name="organizationType" value="empresa" required>
+                            <label for="empresa">Empresa</label>
+                        </div>
+                        <div class="gender-input">
+                            <input id="ong" type="radio" name="organizationType" value="ong" required>
+                            <label for="ong">ONG</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="cnpj">CNPJ:</label>
+                        <input id="cnpj" type="text" name="cnpj" placeholder="Campo de Texto" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="address">Endereço:</label>
+                        <input id="address" type="text" name="address" placeholder="Campo de Texto" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="phone">Telefone:</label>
+                        <input id="phone" type="text" name="phone" placeholder="Campo de Texto" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="email">E-mail:</label>
+                        <input id="email" type="email" name="email" placeholder="Campo de Texto" required>
+                    </div>
+                </div>
+
+                <div class="gender-title">
+                    <h6>Dados do Representante Legal</h6>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="rep-name">Nome do Representante Legal:</label>
+                        <input id="rep-name" type="text" name="rep-name" placeholder="Campo de Texto" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="rep-phone">Telefone do Representante Legal:</label>
+                        <input id="rep-phone" type="text" name="rep-phone" placeholder="Campo de Texto" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="rep-email">E-mail do Representante Legal:</label>
+                        <input id="rep-email" type="email" name="rep-email" placeholder="Campo de Texto" required>
+                    </div>
+                </div>
+
+                <div class="gender-title">
+                    <h6>Descrição da Organização/Empresa</h6>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="description"></label>
+                        <input id="description" type="text" name="description" placeholder="Campo de Texto" required>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
